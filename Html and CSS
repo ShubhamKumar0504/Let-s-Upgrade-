@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .card {
+      width: 300px;
+      height: 300px;
+      margin: 10px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    
+    .card img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h2>Card 1</h2>
+      <img src="image1.jpg" alt="Image 1">
+      <p>Some text content for Card 1</p>
+    </div>
+    
+    <div class="card">
+      <h2>Card 2</h2>
+      <img src="image2.jpg" alt="Image 2">
+      <p>Some text content for Card 2</p>
+    </div>
+    
+    <div class="card">
+      <h2>Card 3</h2>
+      <img src="image3.jpg" alt="Image 3">
+      <p>Some text content for Card 3</p>
+    </div>
+    
+    <!-- Add more cards here if needed -->
+  </div>
+</body>
+</html>
